@@ -81,13 +81,13 @@ class _LoginWidgetState extends State<LoginWidget> {
                 children: [
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 70.0, 0.0, 70.0),
+                        EdgeInsetsDirectional.fromSTEB(50.0, 90.0, 0.0, 40.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Image.asset(
-                          'assets/images/logoFleetWhite@3x.png',
+                          'assets/images/hivemind-logo-1024.png',
                           width: 160.0,
                           height: 40.0,
                           fit: BoxFit.fitWidth,
@@ -106,27 +106,6 @@ class _LoginWidgetState extends State<LoginWidget> {
                                   color: FlutterFlowTheme.of(context).alternate,
                                   fontSize: 36.0,
                                 ),
-                      ),
-                    ],
-                  ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 8.0, 0.0, 24.0),
-                          child: Text(
-                            'To the future of transportation',
-                            style: FlutterFlowTheme.of(context)
-                                .headlineSmall
-                                .override(
-                                  fontFamily: 'Inter',
-                                  color: FlutterFlowTheme.of(context).alternate,
-                                  fontWeight: FontWeight.w100,
-                                ),
-                          ),
-                        ),
                       ),
                     ],
                   ),

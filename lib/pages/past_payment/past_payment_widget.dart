@@ -125,7 +125,7 @@ class _PastPaymentWidgetState extends State<PastPaymentWidget> {
                                         alignment:
                                             AlignmentDirectional(-0.8, -0.65),
                                         child: Image.asset(
-                                          'assets/images/logoFleetWhite@3x.png',
+                                          'assets/images/hivemind-logo-1024.png',
                                           width: 170.0,
                                           height: 40.0,
                                           fit: BoxFit.fitHeight,

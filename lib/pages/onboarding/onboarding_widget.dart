@@ -69,7 +69,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                   ),
                 if (Theme.of(context).brightness == Brightness.dark)
                   Image.asset(
-                    'assets/images/logoFleetWhite@3x.png',
+                    'assets/images/hivemind-logo-1024.png',
                     width: 200.0,
                     height: 50.0,
                     fit: BoxFit.fitHeight,

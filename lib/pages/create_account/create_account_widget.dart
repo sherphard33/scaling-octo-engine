@@ -89,7 +89,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Image.asset(
-                        'assets/images/logoFleetWhite@3x.png',
+                        'assets/images/hivemind-logo-1024.png',
                         width: 160.0,
                         height: 40.0,
                         fit: BoxFit.fitWidth,
