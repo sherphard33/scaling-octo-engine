@@ -41,15 +41,15 @@ class _HomePageWidgetState extends State<HomePageWidget>
           curve: Curves.easeOut,
           delay: 0.ms,
           duration: 600.ms,
-          begin: Offset(79.0, 0.0),
-          end: Offset(0.0, 0.0),
+          begin: const Offset(79.0, 0.0),
+          end: const Offset(0.0, 0.0),
         ),
         ScaleEffect(
           curve: Curves.easeOut,
           delay: 0.ms,
           duration: 600.ms,
-          begin: Offset(1.0, 0.0),
-          end: Offset(1.0, 1.0),
+          begin: const Offset(1.0, 0.0),
+          end: const Offset(1.0, 1.0),
         ),
       ],
     ),
@@ -98,7 +98,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
             mainAxisSize: MainAxisSize.max,
             children: [
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 24.0, 0.0),
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 24.0, 0.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -110,7 +111,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 ),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 24.0, 0.0),
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 24.0, 0.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -131,7 +133,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 fit: BoxFit.cover,
               ).animateOnPageLoad(animationsMap['imageOnPageLoadAnimation']!),
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
                 child: LinearPercentIndicator(
                   percent: 0.4,
                   width: MediaQuery.sizeOf(context).width * 0.9,
@@ -140,12 +143,13 @@ class _HomePageWidgetState extends State<HomePageWidget>
                   animateFromLastPercent: true,
                   progressColor: FlutterFlowTheme.of(context).primary,
                   backgroundColor: Colors.grey,
-                  barRadius: Radius.circular(40.0),
+                  barRadius: const Radius.circular(40.0),
                   padding: EdgeInsets.zero,
                 ),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 12.0),
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 12.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -155,7 +159,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 8.0),
                           child: Text(
                             'Charge',
@@ -173,7 +177,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 8.0),
                           child: Text(
                             'Range',
@@ -191,7 +195,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 8.0),
                           child: Text(
                             'Status',
@@ -216,8 +220,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 width: MediaQuery.sizeOf(context).width * 0.9,
                 height: 70.0,
                 decoration: BoxDecoration(
-                  color: Color(0x9A090F13),
-                  boxShadow: [
+                  color: const Color(0x9A090F13),
+                  boxShadow: const [
                     BoxShadow(
                       blurRadius: 4.0,
                       color: Color(0x43000000),
@@ -230,8 +234,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                      padding: const EdgeInsetsDirectional.fromSTEB(
+                          12.0, 0.0, 0.0, 0.0),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -240,7 +244,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                             width: 50.0,
                             height: 50.0,
                             clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
+                            decoration: const BoxDecoration(
                               shape: BoxShape.circle,
                             ),
                             child: Image.asset(
@@ -252,7 +256,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                     ),
                     Expanded(
                       child: Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(
+                        padding: const EdgeInsetsDirectional.fromSTEB(
                             12.0, 0.0, 16.0, 0.0),
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
@@ -267,7 +271,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   textAlign: TextAlign.start,
                                   style: GoogleFonts.getFont(
                                     'Lexend Deca',
-                                    color: Color(0xB3FFFFFF),
+                                    color: const Color(0xB3FFFFFF),
                                     fontSize: 12.0,
                                   ),
                                 ),
@@ -276,14 +280,14 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                   textAlign: TextAlign.end,
                                   style: GoogleFonts.getFont(
                                     'Lexend Deca',
-                                    color: Color(0xB3FFFFFF),
+                                    color: const Color(0xB3FFFFFF),
                                     fontSize: 12.0,
                                   ),
                                 ),
                               ],
                             ),
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 4.0, 0.0, 0.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -309,7 +313,8 @@ class _HomePageWidgetState extends State<HomePageWidget>
                 ),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                 child: Row(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -319,7 +324,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       height: 150.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondary,
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                             blurRadius: 4.0,
                             color: Color(0x37000000),
@@ -337,7 +342,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           context.pushNamed(
                             'carDriving',
                             extra: <String, dynamic>{
-                              kTransitionInfoKey: TransitionInfo(
+                              kTransitionInfoKey: const TransitionInfo(
                                 hasTransition: true,
                                 transitionType: PageTransitionType.bottomToTop,
                                 duration: Duration(milliseconds: 250),
@@ -349,7 +354,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 16.0, 0.0, 0.0),
                               child: Icon(
                                 Icons.bolt,
@@ -358,7 +363,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 8.0, 0.0, 0.0),
                               child: AutoSizeText(
                                 'Start Car',
@@ -374,14 +379,14 @@ class _HomePageWidgetState extends State<HomePageWidget>
                             ),
                             Expanded(
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 4.0, 8.0, 0.0),
                                 child: Text(
                                   'Tap here to start your car.',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.getFont(
                                     'Lexend Deca',
-                                    color: Color(0xB3FFFFFF),
+                                    color: const Color(0xB3FFFFFF),
                                     fontSize: 12.0,
                                   ),
                                 ),
@@ -396,7 +401,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       height: 150.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).secondary,
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                             blurRadius: 4.0,
                             color: Color(0x37000000),
@@ -414,7 +419,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           context.pushNamed(
                             'trackCar',
                             extra: <String, dynamic>{
-                              kTransitionInfoKey: TransitionInfo(
+                              kTransitionInfoKey: const TransitionInfo(
                                 hasTransition: true,
                                 transitionType: PageTransitionType.bottomToTop,
                                 duration: Duration(milliseconds: 250),
@@ -426,7 +431,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 16.0, 0.0, 0.0),
                               child: Icon(
                                 Icons.bolt,
@@ -435,7 +440,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 8.0, 0.0, 0.0),
                               child: AutoSizeText(
                                 'Start Car',
@@ -451,14 +456,14 @@ class _HomePageWidgetState extends State<HomePageWidget>
                             ),
                             Expanded(
                               child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 4.0, 8.0, 0.0),
                                 child: Text(
                                   'Tap here to start your car.',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.getFont(
                                     'Lexend Deca',
-                                    color: Color(0xB3FFFFFF),
+                                    color: const Color(0xB3FFFFFF),
                                     fontSize: 12.0,
                                   ),
                                 ),
@@ -473,7 +478,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                       height: 150.0,
                       decoration: BoxDecoration(
                         color: FlutterFlowTheme.of(context).primary,
-                        boxShadow: [
+                        boxShadow: const [
                           BoxShadow(
                             blurRadius: 3.0,
                             color: Color(0x39000000),
@@ -487,7 +492,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 16.0, 0.0, 0.0),
                             child: Icon(
                               Icons.electric_car,
@@ -496,7 +501,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
+                            padding: const EdgeInsetsDirectional.fromSTEB(
                                 0.0, 8.0, 0.0, 0.0),
                             child: AutoSizeText(
                               'Car Charging',
@@ -512,14 +517,14 @@ class _HomePageWidgetState extends State<HomePageWidget>
                           ),
                           Expanded(
                             child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   8.0, 4.0, 8.0, 0.0),
                               child: Text(
                                 'Current Status\n30m until full',
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.getFont(
                                   'Lexend Deca',
-                                  color: Color(0xB3FFFFFF),
+                                  color: const Color(0xB3FFFFFF),
                                   fontSize: 12.0,
                                 ),
                               ),

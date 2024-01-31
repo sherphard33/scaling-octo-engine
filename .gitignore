@@ -50,3 +50,5 @@ app.*.map.json
 **/android/app/release
 **/android/app/google-services.json
 **/lib/backend/firebase
+**/web/flutter.js
+**/ios/Runner/GoogleService-Info.plist
