@@ -50,6 +50,6 @@ app.*.map.json
 **/android/app/release
 **/android/app/google-services.json
 **/lib/backend/firebase
-**/web/flutter.js
+**/web/firebase-messaging-sw.js
 **/ios/Runner/GoogleService-Info.plist
 **/ios/Runner/Info.plist
