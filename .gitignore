@@ -52,3 +52,4 @@ app.*.map.json
 **/lib/backend/firebase
 **/web/flutter.js
 **/ios/Runner/GoogleService-Info.plist
+**/ios/Runner/Info.plist
